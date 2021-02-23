@@ -13,11 +13,13 @@ func outputArea(s shape) {
 	fmt.Println(s.getArea())
 }
 
+// 四角形
 type rectangle struct {
 	tate float64
 	yoko float64
 }
 
+// 三角形
 type triangle struct {
 	takasa float64
 	teihen float64
